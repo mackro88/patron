@@ -7,7 +7,7 @@ else
     while i < n_usuario
         if i%6 == 0 || i%6 == 1 
             print "."
-        elsif i%6 == 3 || i%6 == 4
+        elsif i%6 == 2 || i%6 == 3
             print "*"
         else
             print "|"
